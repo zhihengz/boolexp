@@ -1,0 +1,22 @@
+package net.longhorn.boolexp;
+
+public class Parser {
+
+    public static final int
+	LT = 1,
+	GT = 2,
+	IN = 3,
+	LPAREN = 4,
+	RPAREN = 5,
+	STR = 6,
+	AND = 7,
+	OR = 8,
+	COMMA = 9,
+	VAR = 10,
+	EQ = 11,
+	NUM = 12,
+	MINUS = 13,
+	UNKNOWN=14;
+
+    public ParserVal yylval;
+}

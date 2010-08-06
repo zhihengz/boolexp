@@ -1,0 +1,5 @@
+boolexp:
+
+My code exercise to build a boolean expression script in Java, such as
+
+${foo} == ${bar}
